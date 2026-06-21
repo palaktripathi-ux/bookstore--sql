@@ -1,0 +1,148 @@
+📚 Book Sales Analysis Using SQL
+
+A complete SQL project focused on analyzing a Book Sales Database to derive meaningful business insights related to books, customers, orders, inventory, revenue, and sales performance.
+
+📌 Project Overview
+
+This project demonstrates the use of SQL for solving real-world business problems in the publishing and retail industry. The database contains information about books, customers, and orders, enabling comprehensive analysis of sales trends, customer behavior, inventory management, and revenue generation.
+
+The project covers SQL concepts ranging from basic filtering and aggregation to advanced joins, grouping, subqueries, and business analytics.
+
+🗂️ Database Schema
+
+The database consists of the following tables:
+
+📖 Books
+
+Stores information about available books.
+
+Column	Description
+Book_ID	Unique identifier for each book
+Title	Name of the book
+Author	Author of the book
+Genre	Book category
+Published_Year	Year of publication
+Price	Selling price
+Stock	Available inventory
+
+👤 Customers
+
+Stores customer information.
+
+Column	Description
+Customer_ID	Unique customer identifier
+Name	Customer name
+City	Customer city
+Country	Customer country
+
+🛒 Orders
+
+Stores order transaction details.
+
+Column	Description
+Order_ID	Unique order identifier
+Customer_ID	Customer placing the order
+Book_ID	Purchased book
+Quantity	Number of copies ordered
+Order_Date	Date of purchase
+Total_Amount	Order value
+
+🎯 Project Objectives
+Analyze book sales performance.
+Identify customer purchasing patterns.
+Track inventory and stock levels.
+Measure revenue generation.
+Discover top-selling books and genres.
+Generate actionable business insights using SQL.
+
+📊 Business Questions Solved
+--Basic SQL Analysis--
+1. Retrieve all books in the Fiction genre
+Filtering data using WHERE.
+2. Find books published after 1950
+Date and numeric filtering.
+3. List all customers from Canada
+Customer segmentation by country.
+4. Show orders placed in November 2023
+Date filtering and extraction.
+5. Retrieve total stock of books available
+Inventory analysis using aggregate functions.
+6. Find details of the most expensive book
+Ranking and sorting records.
+7. Show customers who ordered more than one quantity
+Order behavior analysis.
+8. Retrieve orders where total amount exceeds $20
+High-value transaction analysis.
+9. List all available genres
+Distinct value retrieval.
+10. Find the book with the lowest stock
+Inventory monitoring.
+11. Calculate total revenue generated
+Revenue analysis using aggregation.
+--Advanced SQL Analysis--
+1. Total books sold for each genre
+Sales performance across categories.
+2. Average price of Fantasy books
+Genre-based pricing analysis.
+3. Customers with at least two orders
+Customer loyalty analysis.
+4. Most frequently ordered book
+Best-selling product identification.
+5. Top 3 most expensive Fantasy books
+Advanced sorting and limiting.
+6. Total quantity sold by each author
+Author performance evaluation.
+7. Cities where customers spent over $30
+Geographic customer analysis.
+8. Customer who spent the most
+Highest-value customer identification.
+9. Stock remaining after fulfilling all orders
+Inventory management and stock forecasting.
+
+🛠️ SQL Concepts Used
+SELECT Statements
+WHERE Clause
+ORDER BY
+GROUP BY
+HAVING
+Aggregate Functions
+SUM()
+AVG()
+COUNT()
+MIN()
+MAX()
+INNER JOIN
+Subqueries
+DISTINCT
+LIMIT
+Aliases
+Date Functions
+Inventory Calculations
+COALEASE
+
+📈 Key Insights Generated
+Identified the highest revenue-generating books and genres.
+Discovered customer purchasing trends and repeat buyers.
+Evaluated author-wise sales performance.
+Analyzed inventory levels to identify low-stock books.
+Measured total revenue generated from book sales.
+Determined the most frequently purchased books.
+Identified high-value customers and their locations.
+Calculated remaining stock after order fulfillment.
+
+🚀 Learning Outcomes
+Through this project, I gained hands-on experience in:
+
+Writing optimized SQL queries.
+Performing business-focused data analysis.
+Working with relational databases.
+Solving real-world inventory and sales problems.
+Using SQL for decision-making and reporting.
+
+💻 Tools Used
+MySQL
+SQL Workbench / MySQL Workbench
+Relational Database Management System (RDBMS).
+
+
+This SQL project showcases how structured query language can be used to transform raw transactional data into meaningful business insights. By analyzing book sales, customer behavior, inventory levels, and revenue trends, the project demonstrates practical SQL skills commonly required in Data Analyst and Business Intelligence roles.
